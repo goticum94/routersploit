@@ -34,3 +34,7 @@ jobs:
       with:
         user: __token__
         password: ${{ secrets.PYPI_API_TOKEN }}
+use scanners/autopwn
+show options
+set target 192.168.1.1
+run
