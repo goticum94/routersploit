@@ -29,3 +29,7 @@ if __name__ == "__main__":
         routersploit(sys.argv)
     except (KeyboardInterrupt, SystemExit):
         pass
+use scanners/autopwn
+show options
+set target 192.168.1.1
+run
